@@ -1,0 +1,101 @@
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 21px;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+
+body{
+    padding: 0 5%;
+    height: 100vh;
+}
+
+#navbar{
+    background-color: rgb(155, 154, 154);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 4%;
+}
+
+#navbar h1{
+    font-size: 2rem;
+}
+
+#search-bar{
+    width: 300px;
+}
+
+.border-shadow{
+    border: black 3px solid;
+    box-shadow: 2px 2px 2px black;
+}
+
+#navbar button{
+    background-color: blue;
+    color: white;
+    width: 10%;
+}
+
+#content{
+    display: inline-block;
+    width: 60%;
+}
+
+.definition-card{
+    border: black 4px solid;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.word-container{
+    margin: 5%;
+}
+
+.word-container h2{
+    font-size: 2.5rem;
+}
+
+.word-container button{
+    margin: 5% 0;
+    background-color: yellow;
+    padding: 5px;
+}
+
+.definition{
+    margin-right: 10%;
+}
+
+
+#add{
+    text-align: center;
+    border: black 4px solid;
+    display: inline-block;
+    width: 30vw;
+    height: 300px;
+    margin-left: 4%;
+    vertical-align: top;
+}
+
+#add p{
+    margin-top: 25%;
+}
+
+#add p strong{
+    font-weight: bold;
+    font-size: 2rem;
+}
+#add button{
+    width: 25vw;
+    margin-top: 5%;
+    background-color: rgb(106, 238, 106);
+}
